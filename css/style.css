@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9c8c8c;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#container{
+    width: 996px;
+    height: 616px;
+    background-color: rgb(212, 128, 18);
+}
+
+#container p{
+    /*inherit herda o tamanho do pai*/
+    width: inherit;
+    font-size: 15px;
+    color: blue;
+}
