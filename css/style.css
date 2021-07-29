@@ -1,163 +1,237 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-body{
-    background-color: #9c8c8c;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
+body {
+  background-color: #9c8c8c;
+  flex-direction: column;
+  display: flex;
+  overflow-x: hidden;
+  align-items: center;
 }
 
 .container {
-    width: 1200px;
-    height: inherit;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1200px;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header {
-    width: 100vw;
-    height: 55px;
-    background-color: #F1F1F1;
-    border-bottom: 5px solid #DFDFDF;
+  width: 100vw;
+  height: 55px;
+  background-color: #f1f1f1;
+  border-bottom: 5px solid #dfdfdf;
 }
 
 #logo {
-    width: 200px;
-    height: inherit;
-    background-image: url(../img/DOAR.ME.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;  
-    float: right;
+  width: 200px;
+  height: inherit;
+  background-image: url(../img/DOAR.ME.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  float: right;
 }
 
 /*Menu*/
 #nav-menu {
-    width: 500px;
-    height: inherit;
-    float: left;
+  width: 500px;
+  height: inherit;
+  float: left;
 }
 
 #nav-menu > ul {
-    width: 100%;
-    height: inherit;
+  width: 100%;
+  height: inherit;
 }
 
 #nav-menu > ul > li {
-    width: 120px;
-    height: inherit;
-    float: left;
-    text-align: center;
-    padding-top: 15px;    
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: #23527C;
-    list-style: none;
+  width: 120px;
+  height: inherit;
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #23527c;
+  list-style: none;
 }
 
 #nav-menu > ul > li :hover {
-    color: red;
-    cursor: pointer;
+  color: red;
+  cursor: pointer;
 }
 
 /*Introdução*/
 #introdution {
-    width: 100vw;
-    height: 140px;    
-    background-color: #F1F1F1;
+  width: 100vw;
+  height: 140px;
+  background-color: #f1f1f1;
 }
 
 #container-description {
-    height: inherit;
+  height: inherit;
 }
 
 #container-description > p {
-    color: #23527C; 
-    padding: 10px;
-    margin-left: 30px;
-    font-size: 1.5em;
-    margin-right: 15px;
+  color: #23527c;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 1.5em;
+  margin-right: 15px;
 }
 
 #container-description > span {
-    display: flex;
-    margin-left: 30px;
-    align-items: center;
-    align-content: space-around;
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  align-content: space-around;
 }
 
 #container-description > span > h1 {
-    color: #23527C; 
-    padding: 10px;
-    font-size: 3em;
-    margin-right: 15px;
+  color: #23527c;
+  padding: 10px;
+  font-size: 3em;
+  margin-right: 15px;
 }
 
 #container-description > span > img {
-    height: 30px;
+  height: 30px;
 }
 
 #faixa-red {
-    width: 100vw;
-    height: 50px;
-    background-color: #C21415;
+  width: 100vw;
+  height: 50px;
+  background-color: #c21415;
 }
 
 #description-solidario {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 #description-solidario > p {
-    color: #FFF;
-    padding: 8px;
-    font-size: 1.5em;
-    font-weight: 100;
-    margin-right: 100px;
+  color: #fff;
+  padding: 8px;
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-right: 100px;
 }
 
 #description-solidario > h1 {
-    color: #FFF;
-    padding: 8px;
-    font-size: 2em;
-    margin-right: 80px;
+  color: #fff;
+  padding: 8px;
+  font-size: 2em;
+  margin-right: 80px;
 }
 
 #container-image {
-    width: 100vw;
-    height: 300px;
-    background-color: #FFF;
+  width: 100vw;
+  height: 300px;
+  background-color: #fff;
 }
 
 #container-image img {
-    width: inherit;
-    height: inherit;
+  width: inherit;
+  height: inherit;
 }
 
 #news {
-    width: 100vw;
-    padding-bottom: 80px;
-    background-color: #FFF;
+  width: 100vw;
+  padding-bottom: 80px;
+  background-color: #fff;
 }
 
 #card-noticia {
-    width: 80%;
-    height: 450px;
-    border: 2px solid #000;
-    border-radius: 10px;
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../img/background\ 1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;  
+  width: 70%;
+  height: 450px;
+  position: relative;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/background\ 1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+#card-noticia h1 {
+  font-size: 2em;
+  color: #dff0ff;
+  margin-top: 15px;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+
+#card-noticia p {
+  width: 75%;
+  padding: 50px;
+  color: #dff0ff;
+  margin-top: 40px;
+  font-size: 2.4em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+
+#card-noticia button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 130px;
+  border: none;
+  font-size: 1em;
+  color: #fff;
+  padding: 13px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #1877cc;
+}
+
+#footer {
+  width: 100vw;
+  padding: 10px;
+  background-color: #eeeff2;
+  border-top: 2px solid #dfdfdf;
+}
+
+#container_footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#container_footer > section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#container_footer > section > p {
+  width: 120px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #23527c;
+  padding: 5px 0px;
+  margin-bottom: 20px;
+}
+
+#copyright {
+  width: inherit;
+  font-size: 1.3em;
+  color: #23527c;
+  text-align: center;
 }
